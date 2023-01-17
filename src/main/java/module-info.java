@@ -5,7 +5,7 @@ module ifpi.miqueias.crudprofessores {
 
     requires org.kordamp.ikonli.javafx;
 
-    opens ifpi.miqueias.crudprofessores to javafx.fxml;
-    opens ifpi.miqueias.crudprofessores.models to javafx.base;
-    exports ifpi.miqueias.crudprofessores;
+    opens com.saurs.teacherscrud to javafx.fxml;
+    opens com.saurs.teacherscrud.models to javafx.base;
+    exports com.saurs.teacherscrud;
 }
